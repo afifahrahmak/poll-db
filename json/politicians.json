@@ -1,0 +1,134 @@
+[
+  {
+      "name": "Aaron Schock",
+      "party": "R",
+      "location": "IL",
+      "grade_current": 11.5362423
+  },
+  {
+      "name": "Adam Kinzinger",
+      "party": "R",
+      "location": "IL",
+      "grade_current": 8.995621754
+  },
+  {
+      "name": "Schiff Adam",
+      "party": "D",
+      "location": "LA",
+      "grade_current": 13.0347375
+  },
+  {
+      "name": "Daniel Adam Smith",
+      "party": "D",
+      "location": "WA",
+      "grade_current": 10.23695519
+  },
+  {
+      "name": "Anna Eshoo",
+      "party": "D",
+      "location": "WA",
+      "grade_current": 10.65351543
+  },
+  {
+      "name": "Bill Cassidy",
+      "party": "R",
+      "location": "LA",
+      "grade_current": 9.285165569
+  },
+  {
+      "name": "Candice Miller",
+      "party": "R",
+      "location": "WA",
+      "grade_current": 11.70865922
+  },
+  {
+      "name": "Carolyn Maloney",
+      "party": "D",
+      "location": "NY",
+      "grade_current": 13.03522892
+  },
+  {
+      "name": "Dana Rohrabacher",
+      "party": "R",
+      "location": "NY",
+      "grade_current": 10.64634133
+  },
+  {
+      "name": "Duncan Hunter",
+      "party": "R",
+      "location": "IL",
+      "grade_current": 13.66509733
+  },
+  {
+      "name": "Erik Paulsen",
+      "party": "R",
+      "location": "LA",
+      "grade_current": 11.69134788
+  },
+  {
+      "name": "Frank Guinta",
+      "party": "R",
+      "location": "HI",
+      "grade_current": 10.94131093
+  },
+  {
+      "name": "Frank LoBiondo",
+      "party": "R",
+      "location": "HI",
+      "grade_current": 13.08452404
+  },
+  {
+      "name": "John Kerry",
+      "party": "D",
+      "location": "LA",
+      "grade_current": 11.01029616
+  },
+  {
+      "name": "Joseph Lieberman",
+      "party": "I",
+      "location": "NY",
+      "grade_current": 7.95536381
+  },
+  {
+      "name": "Michael Bennet",
+      "party": "D",
+      "location": "IL",
+      "grade_current": 7.98091322
+  },
+  {
+      "name": "Olympia Snowe",
+      "party": "R",
+      "location": "WA",
+      "grade_current": 13.80125838
+  },
+  {
+      "name": "Richard Shelby",
+      "party": "R",
+      "location": "HI",
+      "grade_current": 11.31326157
+  },
+  {
+      "name": "Yvette Clarke",
+      "party": "D",
+      "location": "NY",
+      "grade_current": 12.45211362
+  },
+  {
+      "name": "Zoe Lofgren",
+      "party": "D",
+      "location": "HI",
+      "grade_current": 12.76643582
+  },
+  {
+      "name" : "Ayu Sudi",
+      "party" : "H8",
+      "location" : "ID",
+      "grade_current" : 8.88
+  },
+  {
+      "name" : "Afifah Daniella",
+      "party" : "H8",
+      "location" : "ID",
+      "grade_current" : 8.89
+  }
+]
