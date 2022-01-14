@@ -1,0 +1,28 @@
+{
+  "name": "poll-db-review-buddy",
+  "version": "1.0.0",
+  "description": "[Soal](https://docs.google.com/document/d/1yRb_zWywy2jPwYMyl1LD1utRyP269WPsCrUppMYxTUU/edit)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phase-1-demos/poll-db-review-buddy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phase-1-demos/poll-db-review-buddy/issues"
+  },
+  "homepage": "https://github.com/phase-1-demos/poll-db-review-buddy#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
