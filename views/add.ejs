@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<%- include('./partials/head', {title: 'add SoftDrink'}) %> 
+<body>
+    <%- include('./partials/navbar') %> 
+
+    <h2>Add Softdrink</h2>
+    <br>
+    <form action="/softdrinks/add" method="post">
+      <label>Variant</label><br />
+      <input type="text" name="variant" /><br />
+      <label>Name </label><br />
+      <input type="text" name="name" /><br />
+      <label>Genre</label><br />
+      <select name="CompanyId" id="">
+        <option selected disabled>-- select --</option>
+        <% ['Rock', 'Dangdut', 'Pop', 'Country', 'Jazz', 'Metal','Others'].forEach(el => { %>
+          <option value="<%=el%>"><%=el%></option>
+        <% }) %> 
+      </select><br />
+      <label>Price </label><br />
+      <input type="number" name="price" /><br />
+      <label>Company</label><br />
+      <select name="CompanyId" id="">
+        <option selected disabled>-- select --</option>
+        <% companies.forEach((el) => { %>
+            <option value="<%= el.id %>"> <%= el.name %></option>
+        <% }) %>
+      </select>
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+    <% if (errors) { %> 
+      <% errors.split(',').forEach(el => { %>
+        <p style="color: red;"> <%= el %></p>
+      <%}) %> 
+    <% } %> 
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<%- include('./partials/head', {title: 'add SoftDrink'}) %> 
+<body>
+    <%- include('./partials/navbar') %> 
+
+    <h2>Edit Softdrink</h2>
+    <br>
+    <form action="/softdrinks/edit/<%=data.id%>" method="post">
+      <label>Variant</label><br />
+      <input type="text" name="variant" value="<%= data.variant  %>"/><br />
+      <label>Name </label><br />
+      <input type="text" name="name" value="<%= data.name  %>"/><br />
+      <label>Genre</label><br />
+      <select name="genre" id="">
+        <% ['Rock', 'Dangdut', 'Pop', 'Country', 'Jazz', 'Metal','Others'].forEach(el => { %>
+          <% if (el === data.genre)  {%> 
+           <option selected value="<%=el%>"><%=el%></option>
+          <% }  else {%> 
+           <option value="<%=el%>"><%=el%></option>
+          <% } %> 
+        <% }) %> 
+      </select><br />
+      <label>Price </label><br />
+      <input type="number" name="price" value="<%= data.price  %>"/><br />
+      <label>Company</label><br />
+      <select name="CompanyId" id="">
+        <option selected disabled>-- select --</option>
+        <% companies.forEach((el) => { %>
+          <% if(el.name === data.company) {%> 
+            <option selected value="<%= el.id %>"> <%= el.name %></option>
+          <% }  else {%>
+            <option value="<%= el.id %>"> <%= el.name %></option>
+          <% } %>
+        <% }) %>
+      </select>
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>

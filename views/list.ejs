@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<%- include('./partials/head', {title: 'List SoftDrink'}) %> 
+<body>
+  <%- include('./partials/navbar') %> 
+
+  <h2>Data SoftDrink</h2>
+
+  <form action="/softdrinks?search=" method="get">
+    <input type="text" name="search"> <button type="submit">search</button>
+  </form>
+
+  <a href="/softdrinks/add"> <button> Create Soft Drink</button></a>
+  <hr>
+  <table border="1">
+    <tr>
+      <th>ID</th>
+      <th>Variant</th>
+      <th>Name</th>
+      <th>Genre</th>
+      <th>Company</th>
+      <th>createdAt</th>
+    </tr>
+    <% softdrinks.forEach((el) => { %>
+      <tr>
+        <td><%= el.id %></td>
+        <td><%= el.variant %></td>
+        <td><%= el.name %></td>
+        <td><%= el.genre %></td>
+        <td><%= el.company %></td>
+        <td><%= el.formatedDate %></td>
+      </tr>
+      <% }) %>
+  </table>
+</body>
+</html>
